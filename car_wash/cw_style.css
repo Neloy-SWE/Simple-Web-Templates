@@ -125,14 +125,14 @@ body {
 .details-item {
     color: black;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .details-item-head {
     color: black;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .details-information button {
@@ -158,7 +158,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 .service-content img {
@@ -201,17 +201,17 @@ body {
     line-height: 1.7;
 }
 
-.service-book{
+.service-book {
     background: url(/car_wash/assets/book.jpg) no-repeat center center/cover;
     width: 100%;
 }
 
-.service-book .details-item, .service-book .details-item-head{
+.service-book .details-item,
+.service-book .details-item-head {
     color: white;
-    margin-bottom: 0;
 }
 
-.service-book-cover{
+.service-book-cover {
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
@@ -221,14 +221,14 @@ body {
     width: 100%;
 }
 
-.book-card-container{
+.book-card-container {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
 
 
-.book-card{
+.book-card {
     background: white;
     padding: 20px;
     margin-inline: 14px;
@@ -239,18 +239,18 @@ body {
     flex-direction: column;
 }
 
-.book-card h1{
+.book-card h1 {
     font-size: 70px;
 }
 
-.book-card hr{
+.book-card hr {
     margin-top: 10px;
     width: 30px;
     height: 3px;
     background: black;
 }
 
-.book-card p{
+.book-card p {
     margin-top: 20px;
     text-align: center;
     font-size: 16px;
@@ -265,4 +265,12 @@ body {
     background: transparent;
     font-size: 18px;
     font-weight: bold;
+}
+
+.service-rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
 }
