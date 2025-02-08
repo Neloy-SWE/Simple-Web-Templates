@@ -6,3 +6,34 @@
     box-sizing: border-box;
     font-family: 'Inter';
 }
+
+body{
+    padding-top: 9vh;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 13vw;
+    height: 9vh;
+    background-color: black;
+    z-index: 100;
+}
+
+
+
+.navbar a{
+    color: white;
+    margin-inline: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar .active{
+    color: #fc3d05;
+}
