@@ -115,7 +115,7 @@ body {
 
 .details-information {
     margin-left: 60px;
-    width: 30vw;
+    width: 25vw;
 }
 
 .details-content img {
@@ -135,14 +135,20 @@ body {
     margin-bottom: 0;
 }
 
+.deatils-summary{
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 19px;
+}
+
 .details-information button {
     border: 2px solid black;
     height: 60px;
     padding-inline: 20px;
-    margin-right: 10px;
     background: transparent;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .service {
