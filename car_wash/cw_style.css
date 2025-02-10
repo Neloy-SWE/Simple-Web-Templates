@@ -152,7 +152,7 @@ body {
 }
 
 .service {
-    background-color: rgb(246, 246, 246);
+    background: rgb(246, 246, 246);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,6 +344,72 @@ body {
 
 .price-card{
     background: white;
-    padding: 20px;
+    padding: 25px;
+    width: 20vw;
+    margin-inline: 10px;
+    height: fit-content;
 }
 
+.price-card p{
+    font-style: italic;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.price-box{
+    background: rgb(246, 246, 246);
+    padding: 10px 20px 20px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.price-box sup{
+    font-size: 18px;
+}
+.price-box h2{
+    font-size: 35px;
+}
+
+.price-box p{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(96, 96, 96);
+}
+
+.card-offer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-offer i{
+    font-size: 25px;
+    color: #fc3d05;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.card-offer p{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.price-card button{
+    background: #fc3d05;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.price-card-container{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
