@@ -480,3 +480,54 @@ body {
     color: black;
     font-size: 22px;
 }
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.svgIcon {
+    color: #fc3d05;
+    font-size: 100px;
+}
+
+.review {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.7;
+    color: rgb(63, 63, 63);
+    font-weight: 300;
+    top: -60px;
+}
+
+.client {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.client img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.client-details {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.client-details h2 {
+    font-size: 16px;
+}
+
+.client-details p {
+    font-weight: 300;
+}
