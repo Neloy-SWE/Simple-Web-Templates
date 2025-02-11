@@ -438,3 +438,45 @@ body {
 .count-element p {
     font-size: 18px;
 }
+
+.team-section {
+    background: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.profile-card {
+    width: 19vw;
+    margin-inline: 15px;
+}
+
+.profile-card img {
+    width: 100%;
+}
+
+.profile-card h2 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.profile-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+.profile-social {
+    margin-top: 20px;
+}
+
+.profile-social a {
+    margin-right: 5px;
+}
+
+.profile-social i {
+    color: black;
+    font-size: 22px;
+}
