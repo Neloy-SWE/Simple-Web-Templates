@@ -531,3 +531,37 @@ body {
 .client-details p {
     font-weight: 300;
 }
+
+.main-footer{
+    background: rgb(34, 34, 34);
+    padding: 50px 0 50px 0;
+}
+
+.footer-logo-social{
+    width: 16vw;
+}
+
+.footer-logo-social h1{
+    color: #fc3d05;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-logo-social p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.footer-social i{
+    background: white;
+    color: #fc3d05;
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    margin-inline: 2px;
+}
