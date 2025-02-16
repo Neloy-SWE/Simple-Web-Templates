@@ -592,3 +592,15 @@ body {
     color: #fc3d05;
     font-size: 30px;
 }
+
+.copyright{
+    padding: 15px 0 15px 0;
+    background: rgb(16, 16, 16);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.copyright span{
+    color: #fc3d05;
+}
