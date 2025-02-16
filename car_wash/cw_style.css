@@ -535,6 +535,8 @@ body {
 .main-footer{
     background: rgb(34, 34, 34);
     padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer-logo-social{
@@ -550,7 +552,7 @@ body {
 .footer-logo-social p{
     color: white;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 1.7;
 }
 
@@ -564,4 +566,29 @@ body {
     vertical-align: middle;
     line-height: 35px;
     margin-inline: 2px;
+}
+
+.footer-link h3{
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.footer-link-element{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-link-element i{
+    margin-right: 10px;
+}
+
+.contact i{
+    color: #fc3d05;
+    font-size: 30px;
 }
