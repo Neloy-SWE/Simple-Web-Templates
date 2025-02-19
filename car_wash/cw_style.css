@@ -21,7 +21,7 @@ body {
     align-items: center;
     padding: 0 10vw 0 13vw;
     height: 9vh;
-    background-color: black;
+    background: black;
     z-index: 100;
 }
 
@@ -37,13 +37,21 @@ body {
 .navbar .active {
     color: #fc3d05;
 }
+@media (min-width: 900px) and (max-width: 1150px){
 
+    .logo img{
+        width: 140px;
+    }
+    .navbar a{
+        font-size: 14px;
+        margin-inline: 16px;
+    }
+}
 .home-content {
     background: url(/car_wash/assets/back.jpg) no-repeat center center/cover;
     height: 91vh;
     width: 100%;
 }
-
 
 .content-start {
     background: rgba(0, 0, 0, 0.5);
@@ -104,6 +112,26 @@ body {
     margin-left: 10px;
     font-weight: bold;
     color: #fc3d05;
+}
+
+@media (min-width: 900px) and (max-width: 1150px){
+    .home-content{
+        height: 45vh;
+    }
+
+    .content-start{
+        height: 45vh;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.73);
+    }
+
+    .start-back {
+        width: 100%;
+    }
+
+    .start-back h1 {
+        font-size: 50px;
+    }
 }
 
 .details-content {
