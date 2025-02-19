@@ -428,6 +428,27 @@ body {
     width: 80%;
 }
 
+@media (min-width: 900px) and (max-width: 1150px) {
+
+    /* .service-rating .service-content{
+        flex-direction: row;
+    }
+ */
+    .service-rating .service-content img {
+        width: 100%;
+    }
+
+    .rating-bar-container {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .bar {
+        width: 100%;
+    }
+}
+
 .price {
     display: flex;
     flex-direction: column;
