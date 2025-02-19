@@ -190,8 +190,15 @@ body {
 
     .details-content img {
         width: 100%;
-        margin-bottom: ;
+        margin-bottom: 20px;
     }
+
+    .details-information{
+        width: 100%;
+        text-align: center;
+    }
+
+
 }
 
 .service {
