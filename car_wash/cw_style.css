@@ -622,6 +622,16 @@ body {
     font-size: 22px;
 }
 
+@media (min-width: 900px) and (max-width: 1150px) {
+    .profile-card{
+        width: 100%;
+    }
+
+    .team-section .details-item-head{
+        font-size: 30px;
+    }
+}
+
 .testimonials {
     display: flex;
     flex-direction: column;
