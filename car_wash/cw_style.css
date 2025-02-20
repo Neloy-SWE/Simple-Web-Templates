@@ -571,6 +571,15 @@ body {
     font-size: 18px;
 }
 
+@media (min-width: 900px) and (max-width: 1150px) {
+    .service-count {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
 .team-section {
     background: rgb(246, 246, 246);
     display: flex;
