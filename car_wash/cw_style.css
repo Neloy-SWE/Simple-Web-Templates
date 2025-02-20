@@ -200,8 +200,6 @@ body {
         width: 100%;
         text-align: center;
     }
-
-
 }
 
 .service {
@@ -534,6 +532,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 900px) and (max-width: 1150px) {
+    .price-card-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .price-card {
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
 }
 
 .service-count {
