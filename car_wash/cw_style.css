@@ -623,11 +623,11 @@ body {
 }
 
 @media (min-width: 900px) and (max-width: 1150px) {
-    .profile-card{
+    .profile-card {
         width: 100%;
     }
 
-    .team-section .details-item-head{
+    .team-section .details-item-head {
         font-size: 30px;
     }
 }
@@ -754,4 +754,30 @@ body {
 
 .copyright span {
     color: #fc3d05;
+}
+
+@media (min-width: 900px) and (max-width: 1150px) {
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        align-items: start;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .footer-logo-social {
+        grid-column: 1 / -1;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo-social h1 {
+        font-size: 35px;
+    }
+
+    .copyright{
+        font-size: 9px;
+    }
 }
