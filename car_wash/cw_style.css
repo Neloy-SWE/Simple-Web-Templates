@@ -188,6 +188,40 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .home-content {
+        height: 45vh;
+    }
+
+    .content-start {
+        height: 45vh;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.73);
+    }
+
+    .start-back {
+        width: 100%;
+        text-align: center;
+    }
+
+    .start-back h1 {
+        font-size: 20px;
+    }
+
+    .start-back h3 {
+        font-size: 14px;
+    }
+
+    .start-back p {
+        font-size: 14px;
+    }
+
+    .start-button button{
+        font-size: 12px;
+        height: 40px;
+    }
+}
+
 .details-content {
     display: flex;
     justify-content: center;
