@@ -20,6 +20,8 @@
             <a href="#">BLOG</a>
             <a href="#">CONTACT</a>
         </nav>
+
+        <i class='bx bx-menu menu-button'></i>
     </header>
 
     <main>
@@ -514,6 +516,16 @@
             <p>Copyright 2025 - You polish up vehicles, we'll help you polish up your website with <span>OceanWP templates</span></p>
         </section>
     </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-button')
+        const navlinks = document.querySelector('.navbar')
+        const navBack = document.querySelector('.header')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+            navBack.classList.toggle('mobile-menu-back')
+        })
+    </script>
 
 </body>
 

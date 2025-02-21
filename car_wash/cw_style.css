@@ -50,6 +50,57 @@ body {
     }
 }
 
+@media (max-width: 900px){
+    .header{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        position: fixed;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 140px;
+        top: 30px;
+        left: 30px;
+        position: absolute;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        margin-block: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background: black;
+        margin-top: -200%;
+        transition: all 0.5s ease;
+    }
+
+     .menu-button {
+        position: absolute;
+        color: #fc3d05;
+        top: 30px;
+        right: 30px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .mobile-menu{
+        margin-top: 0;
+    }
+
+    .mobile-menu-back{
+        height: 100%;
+    }
+}
+
 .home-content {
     background: url(/car_wash/assets/back.jpg) no-repeat center center/cover;
     height: 91vh;
