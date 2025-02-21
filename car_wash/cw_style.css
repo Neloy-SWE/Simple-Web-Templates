@@ -670,6 +670,43 @@ body {
     }
 }
 
+@media (max-width: 900px){
+
+    .service-rating {
+        padding: 80px 25px;
+    }
+
+    .service-rating .service-content img {
+        width: 100%;
+    }
+
+
+    .service-rating .details-item {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .service-rating .details-item-head {
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    .rating-bar-container {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .bar {
+        width: 100%;
+    }
+
+    .bar-details{
+        font-size: 9px;
+    }
+}
+
 .price {
     display: flex;
     flex-direction: column;
