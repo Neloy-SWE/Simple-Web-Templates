@@ -934,6 +934,28 @@ body {
     }
 }
 
+@media (max-width: 900px){
+
+
+    .profile-card {
+        width: 100%;
+    }
+
+    .team-section .details-item-head {
+        font-size: 30px;
+    }
+
+    .team-section .details-item {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .team-section .details-item-head {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
 .testimonials {
     display: flex;
     flex-direction: column;
