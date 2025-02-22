@@ -670,7 +670,7 @@ body {
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
 
     .service-rating {
         padding: 80px 25px;
@@ -702,7 +702,7 @@ body {
         width: 100%;
     }
 
-    .bar-details{
+    .bar-details {
         font-size: 9px;
     }
 }
@@ -808,6 +808,11 @@ body {
 }
 
 @media (max-width: 900px) {
+
+    .price {
+        padding: 80px 25px;
+    }
+
     .price .details-item {
         text-align: center;
         font-size: 14px;
@@ -817,6 +822,7 @@ body {
         text-align: center;
         font-size: 25px;
     }
+
     .price-card-container {
         flex-direction: column;
         width: 100%;
@@ -874,7 +880,7 @@ body {
     .count-element h2 {
         font-size: 30px;
     }
-    
+
     .count-element p {
         font-size: 10px;
         text-align: center;
@@ -934,15 +940,14 @@ body {
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
 
+    .team-section {
+        padding: 80px 25px;
+    }
 
     .profile-card {
         width: 100%;
-    }
-
-    .team-section .details-item-head {
-        font-size: 30px;
     }
 
     .team-section .details-item {
@@ -1005,6 +1010,28 @@ body {
 
 .client-details p {
     font-weight: 300;
+}
+
+
+@media (max-width: 900px) {
+
+    .testimonials {
+        padding: 80px 25px;
+    }
+
+    .testimonials .details-item {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .testimonials .details-item-head {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .review {
+        font-size: 12px;
+    }
 }
 
 .main-footer {
@@ -1103,5 +1130,35 @@ body {
 
     .copyright {
         font-size: 9px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        align-items: start;
+        justify-content: center;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .footer-logo-social {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+    .footer-logo-social h1 {
+        font-size: 35px;
+    }
+
+    .copyright {
+        font-size: 9px;
+        padding-inline: 30px;
     }
 }
