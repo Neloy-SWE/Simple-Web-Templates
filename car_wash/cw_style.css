@@ -862,6 +862,26 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .service-count {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 80px 25px;
+    }
+
+    .count-element h2 {
+        font-size: 30px;
+    }
+    
+    .count-element p {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
 .team-section {
     background: rgb(246, 246, 246);
     display: flex;
