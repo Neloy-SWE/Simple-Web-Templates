@@ -1,4 +1,4 @@
-.bg-red{
+/* .bg-red{
     background: red;
 }
 
@@ -11,4 +11,19 @@
 }
 .bg-orange{
     background: orange;
+} */
+
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.banner-content h1{
+font-size: 52;
+font-weight: bold;
+}
+
+.banner-content h1 span{
+    color: rgb(0, 132, 255);
+    background: url(/bootsrap_practice/quick_start/images/Vector\ 63.png) no-repeat bottom;
 }
