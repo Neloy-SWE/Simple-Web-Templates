@@ -55,3 +55,21 @@
     background: rgb(0, 132, 255);
     border-color: rgb(0, 132, 255);
 }
+
+.banner-form {
+    padding: 40px;
+}
+
+.banner-form h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner-form button {
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
