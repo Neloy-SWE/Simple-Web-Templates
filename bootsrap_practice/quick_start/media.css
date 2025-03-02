@@ -1,12 +1,41 @@
-@media only screen and (min-width: 200px) and (max-width: 575px){
-    .btn-outer{
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .btn-outer {
         position: fixed;
         bottom: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .banner-content br {
+        display: none;
+    }
+
+    .banner-content p,
+    .banner-content ul li {
+        font-size: 16px;
+    }
+
+    .banner-content-button {
+        flex-direction: column;
+    }
+
+    .banner-content-button button {
+        width: 100%;
     }
 }
 
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         max-width: 1170px;
     }
 }
