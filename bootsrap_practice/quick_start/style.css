@@ -58,6 +58,7 @@
 
 .banner-form {
     padding: 40px;
+    border-radius: 10px;
 }
 
 .banner-form h3 {
@@ -72,4 +73,10 @@
     border: none;
     color: white;
     border-radius: 5px;
+}
+
+.counter-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 132, 255);
 }
